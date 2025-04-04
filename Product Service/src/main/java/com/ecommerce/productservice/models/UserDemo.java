@@ -1,6 +1,5 @@
 package com.ecommerce.productservice.models;
 
-
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -9,9 +8,9 @@ import java.util.UUID;
 
 @Getter
 @Setter
-@Entity(name = "ecommerce_user")
-public class User {
-
+//@MappedSuperclass
+@Entity(name = "user_test_table")
+public class UserDemo {
     @Id
     @GeneratedValue
     @Column(name = "User Id")
@@ -22,6 +21,4 @@ public class User {
 
     @Column(name = "User Email")
     private String email;
-
-
 }

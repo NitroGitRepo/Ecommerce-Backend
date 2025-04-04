@@ -3,9 +3,13 @@ package com.ecommerce.productservice.service;
 import com.ecommerce.productservice.dtos.GetProductDto;
 import com.ecommerce.productservice.exceptions.NotFoundException;
 import com.ecommerce.productservice.models.Product;
+import com.fasterxml.jackson.databind.JsonNode;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
+import org.springframework.web.reactive.function.client.WebClient;
+import reactor.core.publisher.Mono;
 
+import java.net.http.HttpClient;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -41,8 +45,8 @@ public class ProductService {
        String url = "https://fakestoreapi.com/products/";
        Product[] products = restTemplate.getForObject(url, Product[].class);
        List<GetProductDto> al = new ArrayList<>();
-        for(Product product: products){
-             al.add(convertToDto(product));
+        for(Product product: products) {
+            al.add(convertToDto(product));
         }
         return al;
     }
