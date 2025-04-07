@@ -10,6 +10,9 @@ import java.util.UUID;
 @Getter
 @Setter
 @Entity(name = "ecommerce_user")
+@Inheritance(strategy = InheritanceType.JOINED)
+//@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
+//@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 public class User {
 
     @Id

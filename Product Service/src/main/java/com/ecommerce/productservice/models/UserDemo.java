@@ -9,7 +9,8 @@ import java.util.UUID;
 @Getter
 @Setter
 //@MappedSuperclass
-@Entity(name = "user_test_table")
+
+@Entity(name = "user_demo_table")
 public class UserDemo {
     @Id
     @GeneratedValue
