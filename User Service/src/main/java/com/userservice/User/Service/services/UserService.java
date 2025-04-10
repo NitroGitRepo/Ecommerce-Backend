@@ -10,6 +10,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import javax.swing.text.html.Option;
 import javax.xml.crypto.Data;
 import java.time.LocalDate;
 import java.time.ZoneId;
@@ -99,6 +100,7 @@ public class UserService {
                 tokenValue, false
         );
 
+        //if token not present throw exception
         if(optionalToken.isEmpty()){
                //Throw an exception
               throw  new InvalidTokenException("Invalid Token Passed");
@@ -110,5 +112,16 @@ public class UserService {
         System.out.println("TOKEN DETAILS "+token);
         tokenRepository.save(token);
         return;
+    }
+
+    public User validateToken(String tokenValue) throws InvalidTokenException {
+       Optional<Token> optionalToken =  tokenRepository.findByValueAndDeleted(tokenValue, false);
+
+       if(optionalToken.isEmpty()){
+           throw new InvalidTokenException("Invalid Token Passed");
+       }
+
+       return  optionalToken.get().getUser();
+
     }
 }

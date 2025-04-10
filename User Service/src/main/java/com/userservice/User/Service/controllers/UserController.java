@@ -51,4 +51,15 @@ public class UserController {
       }
       return responseEntity;
   }
+
+
+  @PostMapping("/validate/{token}")
+  public UserDto validateToken(@PathVariable("token") String tokenValue){
+      try {
+          User user = userService.validateToken(tokenValue);
+          return  UserDto.from(user);
+      } catch (InvalidTokenException e) {
+          throw new RuntimeException(e);
+      }
+  }
 }
