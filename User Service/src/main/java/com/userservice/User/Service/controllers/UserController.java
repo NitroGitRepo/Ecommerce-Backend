@@ -55,11 +55,17 @@ public class UserController {
 
   @PostMapping("/validate/{token}")
   public UserDto validateToken(@PathVariable("token") String tokenValue){
+      System.out.println("Validate Controller");
       try {
           User user = userService.validateToken(tokenValue);
           return  UserDto.from(user);
       } catch (InvalidTokenException e) {
           throw new RuntimeException(e);
       }
+  }
+
+  @GetMapping("/sample")
+  public void sampleAPI(){
+      System.out.println("GOT A API REQUEST");
   }
 }

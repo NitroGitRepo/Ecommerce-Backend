@@ -40,7 +40,11 @@ public class ProductService {
     }
 
 
-    public List<GetProductDto> getAllProduct(){
+    public List<GetProductDto> getAllProduct(String token){
+
+        //validate the token using userservice
+
+
        RestTemplate restTemplate = new RestTemplate();
        String url = "https://fakestoreapi.com/products/";
        Product[] products = restTemplate.getForObject(url, Product[].class);
