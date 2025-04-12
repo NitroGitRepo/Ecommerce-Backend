@@ -19,7 +19,7 @@ import java.util.Optional;
 
 @Service
 public class UserService {
-    private UserRepository userRepository;
+    private final UserRepository userRepository;
 
     private BCryptPasswordEncoder bCryptPasswordEncoder;
 
@@ -42,6 +42,7 @@ public class UserService {
         user.setName(name);
         user.setEmail(email);
         user.setHashedPassword(bCryptPasswordEncoder.encode(password));
+
         return userRepository.save(user);
         //return null;
     }

@@ -10,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -25,6 +27,10 @@ public class UserController {
 
   @PostMapping("/signup") //localhost:8080/users/signup
   public UserDto signUp(@RequestBody SignUpRequestDto signUpRequestDto){
+      Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+      String userName = authentication.getName();
+
+      System.out.println("USERNAME "+userName);
         User user = userService.signUp(signUpRequestDto.getEmail(), signUpRequestDto.getPassword(), signUpRequestDto.getName());
         //get UserDto from user;
         return  UserDto.from(user);
@@ -42,6 +48,7 @@ public class UserController {
 
   @PostMapping("/logout") //localhost:8080/users/logout
   public ResponseEntity<Void> logout(@RequestBody LogOutRequestDto logOutRequestDto){
+
       ResponseEntity<Void> responseEntity = null;
       try {
           userService.logout(logOutRequestDto.getToken());
@@ -68,4 +75,17 @@ public class UserController {
   public void sampleAPI(){
       System.out.println("GOT A API REQUEST");
   }
+
+  @GetMapping("/userservice")
+  public String checkService(){
+      System.out.println("User Service Running");
+      return "User Service Running";
+  }
+
+    @PostMapping("/loginsecurity") //localhost:8080/users/login
+    public String springSecurityEnableLogin() throws InvalidPasswordException {
+        return "LOGIN SUCCESSFULLY USING SPRING SECURITY";
+    }
+
+
 }
