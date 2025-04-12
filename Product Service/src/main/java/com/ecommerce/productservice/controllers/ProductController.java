@@ -6,7 +6,10 @@ import com.ecommerce.productservice.dtos.Role;
 import com.ecommerce.productservice.dtos.UserDto;
 import com.ecommerce.productservice.models.Product;
 import com.ecommerce.productservice.service.ProductService;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.catalina.connector.Response;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -16,9 +19,12 @@ import org.springframework.web.client.RestTemplate;
 import java.util.ArrayList;
 import java.util.List;
 
+@Slf4j
 @RestController
 @RequestMapping("/product")
 public class ProductController {
+
+    //private static final Logger logger = (Logger) LoggerFactory.getLogger(ProductController.class);
 
     @Autowired
     private ProductService ps;
@@ -85,6 +91,26 @@ public class ProductController {
         //restTemplate.getForObject("http://localhost:9091/users/sample", Void.class);
         restTemplate.getForObject("http://USER-SERVICE/users/sample",Void.class);
         return "STATUS CHECKED SUCCESSFULLY";
+    }
+
+    @GetMapping("/loggenerate")
+    public String loggingDemo(){
+
+        System.out.println("LOG GENERATOR");
+//        logger.info("INFO SEVERITY");
+//        logger.warn("WARNING SEVERITY");
+//        logger.error("ERROR SEVERITY");
+//        logger.debug("DEBUG SEVERITY");
+//        logger.trace("TRACE SEVERIOTY");
+        log.info("INFO SEVERITY");
+        log.warn("WARN SEVERITY");
+        log.error("ERROR SEVERITY");
+
+//        log.debug("DEBUG SEVERITY");
+//        log.trace("TRACE SEVERITY");
+
+
+        return "LOGS GENERATED";
     }
 
 
