@@ -1,0 +1,693 @@
+2025-04-12 23:58:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=AsyncResolver] to 0.0
+2025-04-12 23:58:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.endpointsSize:class=AsyncResolver] to 1.0
+2025-04-12 23:58:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.currentSessionDuration:class=SessionedEurekaHttpClient] to 2302932.0
+2025-04-12 23:58:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=query] to 1.0
+2025-04-12 23:58:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=cacheRefresh] to 0.0
+2025-04-12 23:58:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=heartbeat] to 0.0
+2025-04-12 23:58:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=registration] to 0.0
+2025-04-12 23:58:35 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482515343; nextExpiration=1744482515331; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:36 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482516354; nextExpiration=1744482516343; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:37 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482517368; nextExpiration=1744482517354; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:38 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482518377; nextExpiration=1744482518368; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:39 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482519385; nextExpiration=1744482519377; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:40 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482520394; nextExpiration=1744482520385; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:41 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482521404; nextExpiration=1744482521394; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:42 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482522414; nextExpiration=1744482522404; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:42 [Catalina-utility-2] DEBUG o.a.catalina.session.ManagerBase - Start expire sessions StandardManager at 1744482522460 sessioncount 0
+2025-04-12 23:58:42 [Catalina-utility-2] DEBUG o.a.catalina.session.ManagerBase - End expire sessions StandardManager processingTime 1 expired sessions: 0
+2025-04-12 23:58:43 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482523427; nextExpiration=1744482523414; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:44 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482524429; nextExpiration=1744482524427; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.localRegistrySize:class=DiscoveryClient] to 2.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00015:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00030:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00060:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00120:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00240:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00480:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastSuccessfulRegistryFetchTimePeriod:class=CloudEurekaClient] to 20082.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00015:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00030:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00060:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00120:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00240:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00480:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastSuccessfulHeartbeatTimePeriod:class=CloudEurekaClient] to 20083.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.lastLoadTimestamp:class=AsyncResolver] to 194639.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=AsyncResolver] to 0.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.endpointsSize:class=AsyncResolver] to 1.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.currentSessionDuration:class=SessionedEurekaHttpClient] to 2322942.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=query] to 1.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=cacheRefresh] to 0.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=heartbeat] to 0.0
+2025-04-12 23:58:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=registration] to 0.0
+2025-04-12 23:58:45 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482525430; nextExpiration=1744482525429; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:46 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482526444; nextExpiration=1744482526430; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:47 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482527454; nextExpiration=1744482527444; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:48 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482528468; nextExpiration=1744482528454; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:49 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482529479; nextExpiration=1744482529468; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:50 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482530490; nextExpiration=1744482530479; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:51 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482531500; nextExpiration=1744482531490; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:52 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482532507; nextExpiration=1744482532500; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:53 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482533522; nextExpiration=1744482533507; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:54 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482534536; nextExpiration=1744482534522; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.n.d.s.t.d.SessionedEurekaHttpClient - Ending a session and starting anew
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - scheme set to 'http'
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - START -> HOST_OR_PATH, index=5, componentIndex=5
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - host set to ''
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - host set to 'localhost'
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - HOST -> PORT, index=16, componentIndex=17
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - port set to '8761'
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - PORT -> PATH, index=21, componentIndex=21
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - path set to '/eureka/'
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002117 preparing request execution
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ProtocolExec - ex-0000002117 target auth state: UNCHALLENGED
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ProtocolExec - ex-0000002117 proxy auth state: UNCHALLENGED
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ConnectExec - ex-0000002117 acquiring connection with route {}->[http://localhost:8761]
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002117 acquiring endpoint (180000 MILLISECONDS)
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002117 endpoint lease request (180000 MILLISECONDS) [route: {}->[http://localhost:8761]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002117 endpoint leased [route: {}->[http://localhost:8761]][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "[read] I/O error: Read timed out"
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002117 acquired ep-0000002117
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002117 acquired endpoint ep-0000002117
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.classic.MainClientExec - ex-0000002117 executing GET /eureka/apps/delta
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.protocol.RequestAddCookies - ex-0000002117 Cookie spec selected: strict
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-0000002117 start execution ex-0000002117
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002117 executing exchange ex-0000002117 over http-outgoing-127
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> GET /eureka/apps/delta HTTP/1.1
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> Accept: application/json, application/*+json
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> Accept-Encoding: gzip, x-gzip, deflate
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> Host: localhost:8761
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> Connection: keep-alive
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> User-Agent: Apache-HttpClient/5.4.2 (Java/18.0.1)
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "Accept: application/json, application/*+json[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "Accept-Encoding: gzip, x-gzip, deflate[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "Host: localhost:8761[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "Connection: keep-alive[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "User-Agent: Apache-HttpClient/5.4.2 (Java/18.0.1)[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'restTemplateBuilder'
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'restTemplateBuilder'
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "HTTP/1.1 200 [\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Content-Encoding: gzip[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Content-Type: application/json[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Content-Length: 87[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Date: Sat, 12 Apr 2025 18:28:55 GMT[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Keep-Alive: timeout=60[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Connection: keep-alive[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xffffffff][0xffffffab]VJ,([0xffffffc8][0xffffffc9]LN,[0xffffffc9][0xffffffcc][0xffffffcf]+V[0xffffffb2][0xffffffaa]V*K-*[0x6][0xffffffb1][0xffffffe3][0xffffffe3]SRsJ[0x12][0xffffff95][0xffffffac][0xffffff94][0xffffff8c][0xc][0xc][0xffffff95]t@[0xffffffea][0xffffff80]b[0x19][0xffffff89][0xffffffc5][0x19][0xffffffc9][0xfffffff9])[0xffffffa9]@[0xffffffe1][0xffffffd0][0xffffff80]x[0xffffffa3]x[0xffffff88][0x4][0xffffffcc][0x0]%[0xffffffab][0xffffffe8][0xffffffd8][0xffffffda]Z[0x0]cf[0x1b][0xffffff9c]T[0x0][0x0][0x0]"
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << HTTP/1.1 200 
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Content-Encoding: gzip
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Content-Type: application/json
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Content-Length: 87
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Date: Sat, 12 Apr 2025 18:28:55 GMT
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Keep-Alive: timeout=60
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Connection: keep-alive
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.classic.MainClientExec - ex-0000002117 connection can be kept alive for 60 SECONDS
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - scheme set to 'http'
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - START -> HOST_OR_PATH, index=5, componentIndex=5
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - host set to ''
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - host set to 'localhost'
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - HOST -> PORT, index=16, componentIndex=17
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - port set to '8761'
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - PORT -> PATH, index=21, componentIndex=21
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - path set to '/eureka/'
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE i.m.o.SimpleObservation$SimpleScope - NoOp observation used with SimpleScope
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-0000002117 releasing valid endpoint
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - scheme set to 'http'
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002117 releasing endpoint
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - START -> HOST_OR_PATH, index=5, componentIndex=5
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002117 connection http-outgoing-127 can be kept alive for 60 SECONDS
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002117 connection released [route: {}->[http://localhost:8761]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - host set to ''
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_2_
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - host set to 'localhost'
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 2
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - HOST -> PORT, index=16, componentIndex=17
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE o.s.c.n.eureka.CloudEurekaClient - onCacheRefreshed called with count: 1019
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - port set to '8761'
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - PORT -> PATH, index=21, componentIndex=21
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - path set to '/eureka/'
+2025-04-12 23:58:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/DEMO-SERVICE/localhost:Demo-Service:3132?status=UP&lastDirtyTimestamp=1744443541840
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002118 preparing request execution
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ProtocolExec - ex-0000002118 target auth state: UNCHALLENGED
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ProtocolExec - ex-0000002118 proxy auth state: UNCHALLENGED
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ConnectExec - ex-0000002118 acquiring connection with route {}->[http://localhost:8761]
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002118 acquiring endpoint (180000 MILLISECONDS)
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002118 endpoint lease request (180000 MILLISECONDS) [route: {}->[http://localhost:8761]][total available: 0; route allocated: 0 of 5; total allocated: 0 of 25]
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002118 endpoint leased [route: {}->[http://localhost:8761]][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002118 acquired ep-0000002118
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002118 acquired endpoint ep-0000002118
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ConnectExec - ex-0000002118 opening connection {}->[http://localhost:8761]
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-0000002118 connecting endpoint (null)
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002118 connecting endpoint to http://localhost:8761 (180000 MILLISECONDS)
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.DefaultHttpClientConnectionOperator - localhost resolving remote address
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.DefaultHttpClientConnectionOperator - localhost resolved to [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1]
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.DefaultHttpClientConnectionOperator - http://localhost:8761 connecting null->localhost/127.0.0.1:8761 (180000 MILLISECONDS)
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.DefaultHttpClientConnectionOperator - http-outgoing-128 http://localhost:8761 connected /127.0.0.1:58618->localhost/127.0.0.1:8761
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.DefaultManagedHttpClientConnection - http-outgoing-128 set socket timeout to 180000 MILLISECONDS
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002118 connected http-outgoing-128
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-0000002118 endpoint connected
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.classic.MainClientExec - ex-0000002118 executing PUT /eureka/apps/DEMO-SERVICE/localhost:Demo-Service:3132?status=UP&lastDirtyTimestamp=1744443541840
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.protocol.RequestAddCookies - ex-0000002118 Cookie spec selected: strict
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-0000002118 start execution ex-0000002118
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002118 executing exchange ex-0000002118 over http-outgoing-128
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> PUT /eureka/apps/DEMO-SERVICE/localhost:Demo-Service:3132?status=UP&lastDirtyTimestamp=1744443541840 HTTP/1.1
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> Accept: application/json, application/*+json
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> Accept-Encoding: gzip, x-gzip, deflate
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> Host: localhost:8761
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> Content-Length: 0
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> Connection: keep-alive
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> User-Agent: Apache-HttpClient/5.4.2 (Java/18.0.1)
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "PUT /eureka/apps/DEMO-SERVICE/localhost:Demo-Service:3132?status=UP&lastDirtyTimestamp=1744443541840 HTTP/1.1[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "Accept: application/json, application/*+json[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "Accept-Encoding: gzip, x-gzip, deflate[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "Host: localhost:8761[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "Content-Length: 0[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "Connection: keep-alive[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "User-Agent: Apache-HttpClient/5.4.2 (Java/18.0.1)[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "HTTP/1.1 200 [\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "Content-Length: 0[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "Date: Sat, 12 Apr 2025 18:28:55 GMT[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "Keep-Alive: timeout=60[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "Connection: keep-alive[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "[\r][\n]"
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 << HTTP/1.1 200 
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 << Content-Length: 0
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 << Date: Sat, 12 Apr 2025 18:28:55 GMT
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 << Keep-Alive: timeout=60
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 << Connection: keep-alive
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.classic.MainClientExec - ex-0000002118 connection can be kept alive for 60 SECONDS
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE i.m.o.SimpleObservation$SimpleScope - NoOp observation used with SimpleScope
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-0000002118 releasing valid endpoint
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002118 releasing endpoint
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002118 connection http-outgoing-128 can be kept alive for 60 SECONDS
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002118 connection released [route: {}->[http://localhost:8761]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.n.d.s.t.d.RedirectingEurekaHttpClient - Pinning to endpoint null
+2025-04-12 23:58:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DEMO-SERVICE/localhost:Demo-Service:3132 - Heartbeat status: 200
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.localRegistrySize:class=DiscoveryClient] to 2.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00015:class=CloudEurekaClient] to 1.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00030:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00060:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00120:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00240:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00480:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastSuccessfulRegistryFetchTimePeriod:class=CloudEurekaClient] to 71.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00015:class=CloudEurekaClient] to 1.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00030:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00060:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00120:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00240:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00480:class=CloudEurekaClient] to 0.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastSuccessfulHeartbeatTimePeriod:class=CloudEurekaClient] to 60.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.lastLoadTimestamp:class=AsyncResolver] to 204645.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=AsyncResolver] to 0.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.endpointsSize:class=AsyncResolver] to 1.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.currentSessionDuration:class=SessionedEurekaHttpClient] to 1171554.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=query] to 1.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=cacheRefresh] to 0.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=heartbeat] to 0.0
+2025-04-12 23:58:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=registration] to 0.0
+2025-04-12 23:58:55 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482535543; nextExpiration=1744482535536; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:56 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482536557; nextExpiration=1744482536543; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:57 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482537569; nextExpiration=1744482537557; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:58 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482538578; nextExpiration=1744482538569; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:58:59 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482539594; nextExpiration=1744482539578; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:00 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482540602; nextExpiration=1744482540594; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:01 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482541613; nextExpiration=1744482541602; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:02 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482542627; nextExpiration=1744482542613; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:03 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482543636; nextExpiration=1744482543627; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:04 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482544648; nextExpiration=1744482544636; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.localRegistrySize:class=DiscoveryClient] to 2.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00015:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00030:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00060:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00120:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00240:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00480:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastSuccessfulRegistryFetchTimePeriod:class=CloudEurekaClient] to 10079.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00015:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00030:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00060:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00120:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00240:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00480:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastSuccessfulHeartbeatTimePeriod:class=CloudEurekaClient] to 10068.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.lastLoadTimestamp:class=AsyncResolver] to 214653.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=AsyncResolver] to 0.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.endpointsSize:class=AsyncResolver] to 1.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.currentSessionDuration:class=SessionedEurekaHttpClient] to 1191570.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=query] to 1.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=cacheRefresh] to 0.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=heartbeat] to 0.0
+2025-04-12 23:59:05 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=registration] to 0.0
+2025-04-12 23:59:05 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482545662; nextExpiration=1744482545648; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:06 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482546673; nextExpiration=1744482546662; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:07 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482547687; nextExpiration=1744482547673; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:08 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482548698; nextExpiration=1744482548687; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:09 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482549708; nextExpiration=1744482549698; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:10 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482550720; nextExpiration=1744482550708; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:11 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482551734; nextExpiration=1744482551720; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:12 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482552749; nextExpiration=1744482552734; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:13 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482553764; nextExpiration=1744482553749; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:14 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482554772; nextExpiration=1744482554764; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.localRegistrySize:class=DiscoveryClient] to 2.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00015:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00030:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00060:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00120:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00240:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00480:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastSuccessfulRegistryFetchTimePeriod:class=CloudEurekaClient] to 20081.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00015:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00030:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00060:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00120:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00240:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00480:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastSuccessfulHeartbeatTimePeriod:class=CloudEurekaClient] to 20070.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.lastLoadTimestamp:class=AsyncResolver] to 224655.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=AsyncResolver] to 0.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.endpointsSize:class=AsyncResolver] to 1.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.currentSessionDuration:class=SessionedEurekaHttpClient] to 1211574.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=query] to 1.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=cacheRefresh] to 0.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=heartbeat] to 0.0
+2025-04-12 23:59:15 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=registration] to 0.0
+2025-04-12 23:59:15 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482555775; nextExpiration=1744482555772; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:16 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482556789; nextExpiration=1744482556775; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:17 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482557790; nextExpiration=1744482557789; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:18 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482558791; nextExpiration=1744482558790; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:19 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482559791; nextExpiration=1744482559791; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:20 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482560792; nextExpiration=1744482560791; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:21 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482561806; nextExpiration=1744482561792; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:22 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482562819; nextExpiration=1744482562806; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:24 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482564051; nextExpiration=1744482563819; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:25 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482565062; nextExpiration=1744482565051; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - scheme set to 'http'
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - START -> HOST_OR_PATH, index=5, componentIndex=5
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - host set to ''
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - host set to 'localhost'
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - HOST -> PORT, index=16, componentIndex=17
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - port set to '8761'
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - PORT -> PATH, index=21, componentIndex=21
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - path set to '/eureka/'
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002119 preparing request execution
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ProtocolExec - ex-0000002119 target auth state: UNCHALLENGED
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ProtocolExec - ex-0000002119 proxy auth state: UNCHALLENGED
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ConnectExec - ex-0000002119 acquiring connection with route {}->[http://localhost:8761]
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002119 acquiring endpoint (180000 MILLISECONDS)
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002119 endpoint lease request (180000 MILLISECONDS) [route: {}->[http://localhost:8761]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002119 endpoint leased [route: {}->[http://localhost:8761]][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "[read] I/O error: Read timed out"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002119 acquired ep-0000002119
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002119 acquired endpoint ep-0000002119
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.classic.MainClientExec - ex-0000002119 executing GET /eureka/apps/delta
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.protocol.RequestAddCookies - ex-0000002119 Cookie spec selected: strict
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-0000002119 start execution ex-0000002119
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002119 executing exchange ex-0000002119 over http-outgoing-127
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> GET /eureka/apps/delta HTTP/1.1
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> Accept: application/json, application/*+json
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> Accept-Encoding: gzip, x-gzip, deflate
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> Host: localhost:8761
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> Connection: keep-alive
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> User-Agent: Apache-HttpClient/5.4.2 (Java/18.0.1)
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "Accept: application/json, application/*+json[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "Accept-Encoding: gzip, x-gzip, deflate[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "Host: localhost:8761[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "Connection: keep-alive[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "User-Agent: Apache-HttpClient/5.4.2 (Java/18.0.1)[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "HTTP/1.1 200 [\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Content-Encoding: gzip[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Content-Type: application/json[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Content-Length: 87[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Date: Sat, 12 Apr 2025 18:29:25 GMT[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Keep-Alive: timeout=60[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Connection: keep-alive[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xffffffff][0xffffffab]VJ,([0xffffffc8][0xffffffc9]LN,[0xffffffc9][0xffffffcc][0xffffffcf]+V[0xffffffb2][0xffffffaa]V*K-*[0x6][0xffffffb1][0xffffffe3][0xffffffe3]SRsJ[0x12][0xffffff95][0xffffffac][0xffffff94][0xffffff8c][0xc][0xc][0xffffff95]t@[0xffffffea][0xffffff80]b[0x19][0xffffff89][0xffffffc5][0x19][0xffffffc9][0xfffffff9])[0xffffffa9]@[0xffffffe1][0xffffffd0][0xffffff80]x[0xffffffa3]x[0xffffff88][0x4][0xffffffcc][0x0]%[0xffffffab][0xffffffe8][0xffffffd8][0xffffffda]Z[0x0]cf[0x1b][0xffffff9c]T[0x0][0x0][0x0]"
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << HTTP/1.1 200 
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Content-Encoding: gzip
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Content-Type: application/json
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Content-Length: 87
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Date: Sat, 12 Apr 2025 18:29:25 GMT
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Keep-Alive: timeout=60
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Connection: keep-alive
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.classic.MainClientExec - ex-0000002119 connection can be kept alive for 60 SECONDS
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE i.m.o.SimpleObservation$SimpleScope - NoOp observation used with SimpleScope
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-0000002119 releasing valid endpoint
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002119 releasing endpoint
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002119 connection http-outgoing-127 can be kept alive for 60 SECONDS
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002119 connection released [route: {}->[http://localhost:8761]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_2_
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 2
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE o.s.c.n.eureka.CloudEurekaClient - onCacheRefreshed called with count: 1020
+2025-04-12 23:59:25 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - scheme set to 'http'
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - START -> HOST_OR_PATH, index=5, componentIndex=5
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - host set to ''
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - host set to 'localhost'
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - HOST -> PORT, index=16, componentIndex=17
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - port set to '8761'
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - PORT -> PATH, index=21, componentIndex=21
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - path set to '/eureka/'
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/DEMO-SERVICE/localhost:Demo-Service:3132?status=UP&lastDirtyTimestamp=1744443541840
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002120 preparing request execution
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ProtocolExec - ex-0000002120 target auth state: UNCHALLENGED
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ProtocolExec - ex-0000002120 proxy auth state: UNCHALLENGED
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ConnectExec - ex-0000002120 acquiring connection with route {}->[http://localhost:8761]
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002120 acquiring endpoint (180000 MILLISECONDS)
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002120 endpoint lease request (180000 MILLISECONDS) [route: {}->[http://localhost:8761]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002120 endpoint leased [route: {}->[http://localhost:8761]][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "[read] I/O error: Read timed out"
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002120 acquired ep-0000002120
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002120 acquired endpoint ep-0000002120
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.classic.MainClientExec - ex-0000002120 executing PUT /eureka/apps/DEMO-SERVICE/localhost:Demo-Service:3132?status=UP&lastDirtyTimestamp=1744443541840
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.protocol.RequestAddCookies - ex-0000002120 Cookie spec selected: strict
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-0000002120 start execution ex-0000002120
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002120 executing exchange ex-0000002120 over http-outgoing-128
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> PUT /eureka/apps/DEMO-SERVICE/localhost:Demo-Service:3132?status=UP&lastDirtyTimestamp=1744443541840 HTTP/1.1
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> Accept: application/json, application/*+json
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> Accept-Encoding: gzip, x-gzip, deflate
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> Host: localhost:8761
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> Content-Length: 0
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> Connection: keep-alive
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> User-Agent: Apache-HttpClient/5.4.2 (Java/18.0.1)
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "PUT /eureka/apps/DEMO-SERVICE/localhost:Demo-Service:3132?status=UP&lastDirtyTimestamp=1744443541840 HTTP/1.1[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "Accept: application/json, application/*+json[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "Accept-Encoding: gzip, x-gzip, deflate[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "Host: localhost:8761[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "Content-Length: 0[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "Connection: keep-alive[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "User-Agent: Apache-HttpClient/5.4.2 (Java/18.0.1)[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "HTTP/1.1 200 [\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "Content-Length: 0[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "Date: Sat, 12 Apr 2025 18:29:25 GMT[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "Keep-Alive: timeout=60[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "Connection: keep-alive[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "[\r][\n]"
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 << HTTP/1.1 200 
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 << Content-Length: 0
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 << Date: Sat, 12 Apr 2025 18:29:25 GMT
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 << Keep-Alive: timeout=60
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 << Connection: keep-alive
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.classic.MainClientExec - ex-0000002120 connection can be kept alive for 60 SECONDS
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] TRACE i.m.o.SimpleObservation$SimpleScope - NoOp observation used with SimpleScope
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-0000002120 releasing valid endpoint
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002120 releasing endpoint
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002120 connection http-outgoing-128 can be kept alive for 60 SECONDS
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002120 connection released [route: {}->[http://localhost:8761]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:59:25 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DEMO-SERVICE/localhost:Demo-Service:3132 - Heartbeat status: 200
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.localRegistrySize:class=DiscoveryClient] to 2.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00015:class=CloudEurekaClient] to 1.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00030:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00060:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00120:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00240:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00480:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastSuccessfulRegistryFetchTimePeriod:class=CloudEurekaClient] to 73.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00015:class=CloudEurekaClient] to 1.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00030:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00060:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00120:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00240:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00480:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastSuccessfulHeartbeatTimePeriod:class=CloudEurekaClient] to 68.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.lastLoadTimestamp:class=AsyncResolver] to 234662.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=AsyncResolver] to 0.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.endpointsSize:class=AsyncResolver] to 1.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.currentSessionDuration:class=SessionedEurekaHttpClient] to 1231588.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=query] to 1.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=cacheRefresh] to 0.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=heartbeat] to 0.0
+2025-04-12 23:59:25 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=registration] to 0.0
+2025-04-12 23:59:26 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482566076; nextExpiration=1744482566062; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:27 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482567077; nextExpiration=1744482567076; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:28 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482568091; nextExpiration=1744482568077; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:29 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482569104; nextExpiration=1744482569091; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:30 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482570113; nextExpiration=1744482570104; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:31 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482571114; nextExpiration=1744482571113; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:32 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482572116; nextExpiration=1744482572114; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:33 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482573132; nextExpiration=1744482573116; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:34 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482574138; nextExpiration=1744482574132; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:35 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482575149; nextExpiration=1744482575138; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.localRegistrySize:class=DiscoveryClient] to 2.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00015:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00030:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00060:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00120:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00240:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00480:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastSuccessfulRegistryFetchTimePeriod:class=CloudEurekaClient] to 10083.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00015:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00030:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00060:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00120:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00240:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00480:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastSuccessfulHeartbeatTimePeriod:class=CloudEurekaClient] to 10077.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.lastLoadTimestamp:class=AsyncResolver] to 244671.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=AsyncResolver] to 0.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.endpointsSize:class=AsyncResolver] to 1.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.currentSessionDuration:class=SessionedEurekaHttpClient] to 1251608.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=query] to 1.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=cacheRefresh] to 0.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=heartbeat] to 0.0
+2025-04-12 23:59:35 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=registration] to 0.0
+2025-04-12 23:59:36 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482576161; nextExpiration=1744482576149; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:37 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482577174; nextExpiration=1744482577161; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:38 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482578184; nextExpiration=1744482578174; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:39 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482579192; nextExpiration=1744482579184; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:40 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482580202; nextExpiration=1744482580192; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:41 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482581213; nextExpiration=1744482581202; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:42 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482582222; nextExpiration=1744482582213; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:42 [Catalina-utility-2] DEBUG o.a.catalina.session.ManagerBase - Start expire sessions StandardManager at 1744482582535 sessioncount 0
+2025-04-12 23:59:42 [Catalina-utility-2] DEBUG o.a.catalina.session.ManagerBase - End expire sessions StandardManager processingTime 0 expired sessions: 0
+2025-04-12 23:59:43 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482583235; nextExpiration=1744482583222; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:44 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482584250; nextExpiration=1744482584235; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:45 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482585260; nextExpiration=1744482585250; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.localRegistrySize:class=DiscoveryClient] to 2.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00015:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00030:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00060:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00120:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00240:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00480:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastSuccessfulRegistryFetchTimePeriod:class=CloudEurekaClient] to 20084.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00015:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00030:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00060:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00120:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00240:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00480:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastSuccessfulHeartbeatTimePeriod:class=CloudEurekaClient] to 20078.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.lastLoadTimestamp:class=AsyncResolver] to 254672.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=AsyncResolver] to 0.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.endpointsSize:class=AsyncResolver] to 1.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.currentSessionDuration:class=SessionedEurekaHttpClient] to 1271608.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=query] to 1.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=cacheRefresh] to 0.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=heartbeat] to 0.0
+2025-04-12 23:59:45 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=registration] to 0.0
+2025-04-12 23:59:46 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482586270; nextExpiration=1744482586260; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:47 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482587279; nextExpiration=1744482587270; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:48 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482588293; nextExpiration=1744482588279; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:49 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482589303; nextExpiration=1744482589293; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:50 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482590314; nextExpiration=1744482590303; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:51 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482591328; nextExpiration=1744482591314; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:52 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482592339; nextExpiration=1744482592328; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:53 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482593350; nextExpiration=1744482593339; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:54 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482594350; nextExpiration=1744482594350; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - scheme set to 'http'
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - START -> HOST_OR_PATH, index=5, componentIndex=5
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - START -> SCHEME_OR_PATH, index=0, componentIndex=0
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - host set to ''
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - scheme set to 'http'
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - host set to 'localhost'
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - HOST -> PORT, index=16, componentIndex=17
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - SCHEME_OR_PATH -> START, index=4, componentIndex=0
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - START -> HOST_OR_PATH, index=5, componentIndex=5
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - host set to ''
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - HOST_OR_PATH -> HOST, index=6, componentIndex=7
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - port set to '8761'
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - PORT -> PATH, index=21, componentIndex=21
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - host set to 'localhost'
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE _.s.web.util.RfcUriParser - path set to '/eureka/'
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - HOST -> PORT, index=16, componentIndex=17
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - port set to '8761'
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - PORT -> PATH, index=21, componentIndex=21
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP PUT http://localhost:8761/eureka/apps/DEMO-SERVICE/localhost:Demo-Service:3132?status=UP&lastDirtyTimestamp=1744443541840
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE _.s.web.util.RfcUriParser - path set to '/eureka/'
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - HTTP GET http://localhost:8761/eureka/apps/delta
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002121 preparing request execution
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Accept=[application/json, application/*+json]
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ProtocolExec - ex-0000002121 target auth state: UNCHALLENGED
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002122 preparing request execution
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ProtocolExec - ex-0000002121 proxy auth state: UNCHALLENGED
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ProtocolExec - ex-0000002122 target auth state: UNCHALLENGED
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ConnectExec - ex-0000002121 acquiring connection with route {}->[http://localhost:8761]
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ProtocolExec - ex-0000002122 proxy auth state: UNCHALLENGED
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002121 acquiring endpoint (180000 MILLISECONDS)
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.impl.classic.ConnectExec - ex-0000002122 acquiring connection with route {}->[http://localhost:8761]
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002121 endpoint lease request (180000 MILLISECONDS) [route: {}->[http://localhost:8761]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002122 acquiring endpoint (180000 MILLISECONDS)
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002121 endpoint leased [route: {}->[http://localhost:8761]][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002122 endpoint lease request (180000 MILLISECONDS) [route: {}->[http://localhost:8761]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002122 endpoint leased [route: {}->[http://localhost:8761]][total available: 0; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "[read] I/O error: Read timed out"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002121 acquired ep-0000002121
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "[read] I/O error: Read timed out"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002121 acquired endpoint ep-0000002121
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ex-0000002122 acquired ep-0000002122
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.classic.MainClientExec - ex-0000002121 executing PUT /eureka/apps/DEMO-SERVICE/localhost:Demo-Service:3132?status=UP&lastDirtyTimestamp=1744443541840
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ex-0000002122 acquired endpoint ep-0000002122
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.protocol.RequestAddCookies - ex-0000002121 Cookie spec selected: strict
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.classic.MainClientExec - ex-0000002122 executing GET /eureka/apps/delta
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-0000002121 start execution ex-0000002121
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.protocol.RequestAddCookies - ex-0000002122 Cookie spec selected: strict
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002121 executing exchange ex-0000002121 over http-outgoing-128
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-0000002122 start execution ex-0000002122
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> PUT /eureka/apps/DEMO-SERVICE/localhost:Demo-Service:3132?status=UP&lastDirtyTimestamp=1744443541840 HTTP/1.1
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002122 executing exchange ex-0000002122 over http-outgoing-127
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> Accept: application/json, application/*+json
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> GET /eureka/apps/delta HTTP/1.1
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> Accept-Encoding: gzip, x-gzip, deflate
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> Host: localhost:8761
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> Content-Length: 0
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> Accept: application/json, application/*+json
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> Connection: keep-alive
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> Accept-Encoding: gzip, x-gzip, deflate
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 >> User-Agent: Apache-HttpClient/5.4.2 (Java/18.0.1)
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> Host: localhost:8761
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "PUT /eureka/apps/DEMO-SERVICE/localhost:Demo-Service:3132?status=UP&lastDirtyTimestamp=1744443541840 HTTP/1.1[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> Connection: keep-alive
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 >> User-Agent: Apache-HttpClient/5.4.2 (Java/18.0.1)
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "Accept: application/json, application/*+json[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "GET /eureka/apps/delta HTTP/1.1[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "Accept-Encoding: gzip, x-gzip, deflate[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "Accept: application/json, application/*+json[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "Accept-Encoding: gzip, x-gzip, deflate[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "Host: localhost:8761[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "Host: localhost:8761[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "Content-Length: 0[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "Connection: keep-alive[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "User-Agent: Apache-HttpClient/5.4.2 (Java/18.0.1)[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "Connection: keep-alive[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 >> "[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "User-Agent: Apache-HttpClient/5.4.2 (Java/18.0.1)[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 >> "[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "HTTP/1.1 200 [\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "Content-Length: 0[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "HTTP/1.1 200 [\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "Date: Sat, 12 Apr 2025 18:29:55 GMT[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "Keep-Alive: timeout=60[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "Connection: keep-alive[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-128 << "[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Content-Encoding: gzip[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 << HTTP/1.1 200 
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Content-Type: application/json[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Content-Length: 87[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Date: Sat, 12 Apr 2025 18:29:55 GMT[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Keep-Alive: timeout=60[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "Connection: keep-alive[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "[\r][\n]"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 << Content-Length: 0
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.wire - http-outgoing-127 << "[0x1f][0xffffff8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0xffffffff][0xffffffab]VJ,([0xffffffc8][0xffffffc9]LN,[0xffffffc9][0xffffffcc][0xffffffcf]+V[0xffffffb2][0xffffffaa]V*K-*[0x6][0xffffffb1][0xffffffe3][0xffffffe3]SRsJ[0x12][0xffffff95][0xffffffac][0xffffff94][0xffffff8c][0xc][0xc][0xffffff95]t@[0xffffffea][0xffffff80]b[0x19][0xffffff89][0xffffffc5][0x19][0xffffffc9][0xfffffff9])[0xffffffa9]@[0xffffffe1][0xffffffd0][0xffffff80]x[0xffffffa3]x[0xffffff88][0x4][0xffffffcc][0x0]%[0xffffffab][0xffffffe8][0xffffffd8][0xffffffda]Z[0x0]cf[0x1b][0xffffff9c]T[0x0][0x0][0x0]"
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 << Date: Sat, 12 Apr 2025 18:29:55 GMT
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 << Keep-Alive: timeout=60
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << HTTP/1.1 200 
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-128 << Connection: keep-alive
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Content-Encoding: gzip
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Content-Type: application/json
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Content-Length: 87
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Date: Sat, 12 Apr 2025 18:29:55 GMT
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Keep-Alive: timeout=60
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG org.apache.hc.client5.http.headers - http-outgoing-127 << Connection: keep-alive
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.classic.MainClientExec - ex-0000002121 connection can be kept alive for 60 SECONDS
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.classic.MainClientExec - ex-0000002122 connection can be kept alive for 60 SECONDS
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Response 200 OK
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] TRACE i.m.o.SimpleObservation$SimpleScope - NoOp observation used with SimpleScope
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-0000002121 releasing valid endpoint
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002121 releasing endpoint
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002121 connection http-outgoing-128 can be kept alive for 60 SECONDS
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.s.web.client.RestTemplate - Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002121 connection released [route: {}->[http://localhost:8761]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:59:55 [DiscoveryClient-HeartbeatExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - DiscoveryClient_DEMO-SERVICE/localhost:Demo-Service:3132 - Heartbeat status: 200
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE i.m.o.SimpleObservation$SimpleScope - NoOp observation used with SimpleScope
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.c.InternalHttpClient - ep-0000002122 releasing valid endpoint
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002122 releasing endpoint
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002122 connection http-outgoing-127 can be kept alive for 60 SECONDS
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG o.a.h.c.h.i.i.PoolingHttpClientConnectionManager - ep-0000002122 connection released [route: {}->[http://localhost:8761]][total available: 1; route allocated: 1 of 5; total allocated: 1 of 25]
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Got delta update with apps hashcode UP_2_
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of instances fetched by the delta processor : 0
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - The total number of all instances in the client now is 2
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] TRACE o.s.c.n.eureka.CloudEurekaClient - onCacheRefreshed called with count: 1021
+2025-04-12 23:59:55 [DiscoveryClient-CacheRefreshExecutor-%d] DEBUG c.netflix.discovery.DiscoveryClient - Completed cache refresh task for discovery. All Apps hash code is Local region apps hashcode: UP_2_, is fetching remote regions? false 
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.localRegistrySize:class=DiscoveryClient] to 2.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00015:class=CloudEurekaClient] to 1.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00030:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00060:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00120:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00240:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastUpdateSec_00480:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registry.lastSuccessfulRegistryFetchTimePeriod:class=CloudEurekaClient] to 70.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00015:class=CloudEurekaClient] to 1.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00030:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00060:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00120:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00240:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastHeartbeatSec_00480:class=CloudEurekaClient] to 0.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.registration.lastSuccessfulHeartbeatTimePeriod:class=CloudEurekaClient] to 71.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.lastLoadTimestamp:class=AsyncResolver] to 264682.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=AsyncResolver] to 0.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.resolver.endpointsSize:class=AsyncResolver] to 1.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.currentSessionDuration:class=SessionedEurekaHttpClient] to 1291628.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=query] to 1.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=cacheRefresh] to 0.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [threadPoolUsed:class=TimedSupervisorTask:id=heartbeat] to 0.0
+2025-04-12 23:59:55 [spectator-gauge-polling-0] TRACE c.n.s.api.patterns.PolledMeter - setting gauge [eurekaClient.transport.quarantineSize:class=RetryableEurekaHttpClient:id=registration] to 0.0
+2025-04-12 23:59:55 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482595362; nextExpiration=1744482595350; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:56 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482596376; nextExpiration=1744482596362; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:57 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482597390; nextExpiration=1744482597376; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:58 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482598405; nextExpiration=1744482598390; keyCount=0; hasEvents=false; eval=false
+2025-04-12 23:59:59 [http-nio-3132-Poller] DEBUG o.apache.tomcat.util.net.NioEndpoint - timeout completed: keys processed=0; now=1744482599434; nextExpiration=1744482599405; keyCount=0; hasEvents=false; eval=false

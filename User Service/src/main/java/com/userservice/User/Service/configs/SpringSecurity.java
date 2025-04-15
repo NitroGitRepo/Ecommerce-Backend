@@ -1,7 +1,10 @@
 package com.userservice.User.Service.configs;
 
+import com.userservice.User.Service.filter.JwtFilter;
+
 import com.userservice.User.Service.services.UserDetailServiceImp;
 import com.userservice.User.Service.services.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.authentication.AuthenticationManager;
@@ -13,6 +16,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 
 @Configuration
@@ -21,15 +25,15 @@ public class SpringSecurity {
 
     private final UserDetailServiceImp userDetailsService;
 
-
+    @Autowired
+    private JwtFilter jwtFilter;
 
     public SpringSecurity(UserDetailServiceImp userDetailsService) {
         this.userDetailsService = userDetailsService;
     }
 
     @Bean
-    public AuthenticationManager authenticationManager(
-            AuthenticationConfiguration config) throws Exception {
+    public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
         return config.getAuthenticationManager();
     }
 
@@ -52,11 +56,13 @@ public class SpringSecurity {
                 .csrf().disable()
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/users/signup").permitAll()
+                        .requestMatchers("/users/loginjwt").permitAll()
                         .requestMatchers("/users/**").authenticated()
                         .requestMatchers("/s/**").authenticated()
                         .anyRequest().authenticated()
                 )
-                .httpBasic();
+                .addFilterBefore(jwtFilter, UsernamePasswordAuthenticationFilter.class);
+
 
         return http.build();
     }

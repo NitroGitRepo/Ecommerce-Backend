@@ -5,21 +5,39 @@ import com.userservice.User.Service.exception.InvalidPasswordException;
 import com.userservice.User.Service.exception.InvalidTokenException;
 import com.userservice.User.Service.models.Token;
 import com.userservice.User.Service.models.User;
+import com.userservice.User.Service.services.UserDetailServiceImp;
 import com.userservice.User.Service.services.UserService;
+import com.userservice.User.Service.utils.JwtUtil;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/users")
+@Slf4j
 public class UserController {
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private AuthenticationManager authenticationManager;
+
+    @Autowired
+    private UserDetailServiceImp userDetailServiceImp;
+
+    @Autowired
+    private JwtUtil jwtUtil;
+
+
 
 //    UserController(UserService userService){
 //        this.userService =  userService;
@@ -82,9 +100,25 @@ public class UserController {
       return "User Service Running";
   }
 
-    @PostMapping("/loginsecurity") //localhost:8080/users/login
+    @GetMapping("/loginsecurity") //localhost:8080/users/login
     public String springSecurityEnableLogin() throws InvalidPasswordException {
         return "LOGIN SUCCESSFULLY USING SPRING SECURITY";
+    }
+
+
+
+    @PostMapping("/loginjwt")
+    public String loginJWT(@RequestBody LoginRequestDro user){
+        try{
+            authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(user.getEmail(), user.getPassword()));
+            UserDetails userDetails =  userDetailServiceImp.loadUserByUsername(user.getEmail());
+            String jwt = jwtUtil.generateToken(userDetails.getUsername());
+            return jwt;
+        }catch (Exception e){
+             log.error("LOGIN FALIED !!!!");
+              return "Login Failed";
+        }
+
     }
 
 
